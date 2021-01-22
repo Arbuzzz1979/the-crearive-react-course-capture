@@ -5,6 +5,8 @@ import diaphragm from "../img/diaphragm.svg";
 import money from "../img/money.svg";
 import teamwork from "../img/teamwork.svg";
 import home2 from "../img/home2.png";
+//Styled
+import styled from 'styled-components'
 
 const ServicesSection = () => {
   return (
@@ -45,10 +47,12 @@ const ServicesSection = () => {
         </div>
       </div>
       <div className="image">
-        <img src={home2} alt="camera"/>
+        <img src={home2} alt="camera" />
       </div>
     </div>
   );
 };
+
+
 
 export default ServicesSection;
